@@ -2,6 +2,7 @@ import {Web3ReactProvider} from '@web3-react/core';
 import {Web3Provider} from '@ethersproject/providers';
 
 import Header from './components/Header';
+import MyComponent from './components/MyComponent';
 import Footer from './components/Footer';
 
 import Content from './components/Containers';
@@ -25,7 +26,8 @@ function App() {
         <Container text textAlign='center'>
           <Image centered size='tiny' src={iconDevx} style={{marginBottom:"2em"}}/>
           <p>Create React Ethereum DApp on Polygon</p>
-          <p>Build your first app with Starter Kits</p>
+          <p>Hello Decentralised World!</p>
+          <MyComponent/>
         </Container>
       </Content>
       <Footer/>
